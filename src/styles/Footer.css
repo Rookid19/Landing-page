@@ -1,0 +1,71 @@
+.footer {
+  background-color: #f8f9fa;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.info {
+  text-align: center;
+}
+#footer-heading {
+  font-size: 25px;
+  padding-top: 40px;
+}
+#next-gen {
+  font-size: 25px;
+  color: #0052ff;
+  line-height: 30px;
+}
+
+#commission-text {
+  margin-inline: 30%;
+  line-height: 25px;
+}
+
+#privacy {
+  font-size: 14px;
+  margin-left: 8%;
+}
+#insta-icon {
+  margin-inline: 10px;
+}
+
+/* transition-all duration-500 ;ease-out hover:rotate-180 active:scale-125 */
+
+#icons {
+  margin-top: 40px;
+  margin-left: 8%;
+}
+#icons > a {
+  color: #000;
+}
+
+#icons > a:hover {
+  color: #0052ff;
+}
+
+#copyright {
+  text-align: center;
+  margin-top: -20px;
+  font-size: 10px;
+}
+
+#copyright > span {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  #icons {
+    margin-left: 6%;
+  }
+  #privacy {
+    font-size: 14px;
+    margin-left: 8%;
+  }
+  #commission-text {
+    margin-inline: 8%;
+    line-height: 25px;
+    margin-bottom: 35px;
+  }
+}
